@@ -215,6 +215,42 @@ nav ul a {
     margin-top: 390px;
 }
 
+.big-horizontal-container {
+    display: flex;
+    width: 960px;
+    height: 380px
+    
+}
+
+.box-img {
+    flex-basis: 60%;
+}
+
+.box-partner {
+    flex-basis: 40%;
+    align-self: center;
+    padding: 1rem;
+}
+
+.box-partner h3 {
+    margin-bottom: 20px;
+}
+
+.big-horizontal-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.cta-partner {
+    background-color: white;
+    color: grey;
+    border: 1px solid #464646;
+    width: 120px;
+    margin-top: 30px;
+}
+
 .small-horizontal-container {
     margin-top: 20px;
     width: 960px;

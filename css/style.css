@@ -87,7 +87,7 @@ nav ul a {
 
 .container{
     width: 100%;
-    margin: auto; 
+    margin: auto;
 }
 
 .container-xl {
@@ -295,18 +295,17 @@ nav ul a {
     margin-bottom: 60px;
 }
 
+/* Non funziona la proprietà aspect-ratio  */
+
 .client-list {
     display: flex;
+    aspect-ratio: 1/1;
     height: 380px;
     width: 100%;
-    border: 1px solid red;
 }
-
-/* Non funziona aspect-ratio */
 
 .square-container {
     border: 1px solid red;
-    aspect-ratio: 1/1;
     width: calc(100% / 3);
     min-height: 100px;
 } 
@@ -363,5 +362,34 @@ nav ul a {
 .q-icon{
     font-size: 2rem;
     margin-right: 4rem;
+    margin-top: 20px;
 }
 
+footer {
+    background-color: black;
+    margin-top: 150px;
+}
+
+.footer-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.rectangle {
+    flex-basis: 0;
+}
+
+.title-box {
+    color: white;
+}
+
+.footer-list{
+    list-style: none;
+    color: white;
+}
+
+.rectangle ul li {
+    margin-top: 20px;
+}
